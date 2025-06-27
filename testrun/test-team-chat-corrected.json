@@ -1,0 +1,26 @@
+{
+  "id": "Y5CZS3D6b452VCfQ",
+  "errorReasoning": null,
+  "featurePreviews": {
+    "diffs": false,
+    "reasoning": false
+  },
+  "framework": "DEFAULT_TO_DEV",
+  "isFirstPrompt": false,
+  "messages": [
+    {
+      "id": "user-message-1",
+      "role": "user",
+      "content": "Hello, can you help me create a simple React component?"
+    }
+  ],
+  "metrics": {
+    "importFilesLength": 0,
+    "fileChangesLength": 0
+  },
+  "projectId": "49956303",
+  "promptMode": "discussion",
+  "stripeStatus": "not-configured",
+  "supportIntegrations": true,
+  "usesInspectedElement": false
+}

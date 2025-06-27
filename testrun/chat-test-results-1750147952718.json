@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-06-17T08:12:05.206Z",
+  "cloudRunUrl": "https://bolt2api-rf6frxmcca-ew.a.run.app/api/chat",
+  "cookieLength": 1026,
+  "tests": [
+    {
+      "testNumber": 1,
+      "name": "Simple React Component",
+      "message": "Create a simple React component that displays 'Hello World' with a button that shows an alert when clicked",
+      "startTime": "2025-06-17T08:12:05.207Z",
+      "success": true,
+      "responseTime": 6466,
+      "status": 200,
+      "error": null,
+      "response": {
+        "success": true,
+        "timestamp": "2025-06-17T08:12:09.793Z",
+        "dataType": "object",
+        "hasContent": true,
+        "contentPreview": "0:\"## The Plan\\n\\n1.  **Create a new component file**: You should create a new file for your `HelloWorld` component, for example, `src/components/HelloWorld.tsx`.\"\n0:\" This file will contain the React component definition.\\n\\n2.  **Define the `HelloWorld` component**: Inside `src/components/HelloWor",
+        "fullResponse": {
+          "type": "stream",
+          "content": "0:\"## The Plan\\n\\n1.  **Create a new component file**: You should create a new file for your `HelloWorld` component, for example, `src/components/HelloWorld.tsx`.\"\n0:\" This file will contain the React component definition.\\n\\n2.  **Define the `HelloWorld` component**: Inside `src/components/HelloWorld.tsx`, you will define a functional React component. This component will render a `div` containing\"\n0:\" the text \\\"Hello World\\\" and a `button` element.\\n\\n3.  **Add an `onClick` handler to the button**: For the button, you will add an `onClick` event handler. This handler will be a function that calls the `alert()` browser function with a message like \\\"Button clicked!\\\".\\n\\n4.  \"\n0:\"**Import and use the `HelloWorld` component in `App.tsx`**: You will then open `src/App.tsx` and import the newly created `HelloWorld` component. After importing, you can render the `HelloWorld` component within the main `App` component's return statement.\\n\\n<bolt-quick-actions\"\n0:\">\\n  <bolt-quick-action type=\\\"implement\\\" message=\\\"Create the HelloWorld component and integrate it into App.tsx\\\">Implement this plan</bolt-quick-action>\\n  <bolt-quick-action type=\\\"message\\\" message=\\\"How do I add styling to the button?\\\">Add styling</bolt-quick\"\n0:\"-action>\\n  <bolt-quick-action type=\\\"file\\\" path=\\\"src/components/HelloWorld.tsx\\\">Open HelloWorld.tsx</bolt-quick-action>\\n  <bolt-quick-action type=\\\"file\\\" path=\\\"src/App.tsx\\\">Open App.tsx</bolt-quick-action\"\n0:\">\\n</bolt-quick-actions>\"\ne:{\"finishReason\":\"stop\",\"usage\":{\"promptTokens\":6137,\"completionTokens\":364},\"isContinued\":false}\nd:{\"finishReason\":\"stop\",\"usage\":{\"promptTokens\":6137,\"completionTokens\":364}}\n"
+        }
+      },
+      "endTime": "2025-06-17T08:12:11.676Z"
+    },
+    {
+      "testNumber": 2,
+      "name": "JavaScript Function",
+      "message": "Write a JavaScript function that takes an array of numbers and returns the sum of all even numbers",
+      "startTime": "2025-06-17T08:12:13.683Z",
+      "success": true,
+      "responseTime": 4715,
+      "status": 200,
+      "error": null,
+      "response": {
+        "success": true,
+        "timestamp": "2025-06-17T08:12:16.521Z",
+        "dataType": "object",
+        "hasContent": true,
+        "contentPreview": "0:\"Here's a JavaScript function that calculates the sum of all even numbers in an array:\"\n0:\"\\n\\n\"\n0:\"```javascript\\nfunction sumEvenNumbers(numbers) {\\n  let sum = 0;\\n  for (let i = 0; i < numbers.length;\"\n0:\" i++) {\\n    if (numbers[i] % 2 === 0) {\\n      sum += numbers[i];\\n    }\\n  }\\n  return ",
+        "fullResponse": {
+          "type": "stream",
+          "content": "0:\"Here's a JavaScript function that calculates the sum of all even numbers in an array:\"\n0:\"\\n\\n\"\n0:\"```javascript\\nfunction sumEvenNumbers(numbers) {\\n  let sum = 0;\\n  for (let i = 0; i < numbers.length;\"\n0:\" i++) {\\n    if (numbers[i] % 2 === 0) {\\n      sum += numbers[i];\\n    }\\n  }\\n  return sum;\\n}\\n```\"\n0:\"\\n\\nThis function iterates through the\"\n0:\" input `numbers` array. For each number, it checks if it's even using the modulo operator (`%`). If the remainder when divided by 2 is 0, the number is even, and it's added to the `sum`. Finally\"\n0:\", the total `sum` of even numbers is returned.\\n\\n<bolt-quick-actions>\\n  <bolt-quick-action type=\\\"message\\\" message=\\\"How can I use this function in my project?\\\">How to use this function</bolt-quick-action>\\n  <bolt-quick-action type=\\\"\"\n0:\"message\\\" message=\\\"Can you provide an example of how to call this function?\\\">Provide an example</bolt-quick-action>\\n  <bolt-quick-action type=\\\"message\\\" message=\\\"Write a function to sum odd numbers\\\">Sum odd numbers</bolt-quick-action>\\n</bolt-quick-actions>\"\ne:{\"finishReason\":\"stop\",\"usage\":{\"promptTokens\":null,\"completionTokens\":null},\"isContinued\":false}\nd:{\"finishReason\":\"stop\",\"usage\":{\"promptTokens\":null,\"completionTokens\":null}}\n"
+        }
+      },
+      "endTime": "2025-06-17T08:12:18.400Z"
+    },
+    {
+      "testNumber": 3,
+      "name": "CSS Styling",
+      "message": "Create CSS styles for a responsive navigation bar with hover effects",
+      "startTime": "2025-06-17T08:12:20.409Z",
+      "success": true,
+      "responseTime": 12308,
+      "status": 200,
+      "error": null,
+      "response": {
+        "success": true,
+        "timestamp": "2025-06-17T08:12:30.840Z",
+        "dataType": "object",
+        "hasContent": true,
+        "contentPreview": "0:\"Okay, I can help you with that. You'll need to create an HTML structure for your navigation bar and then apply CSS styles to make it responsive and add\"\n0:\" hover effects.\\n\\n## The Plan\\n\\n1.  **Create the HTML structure for the navigation bar**:\\n    *   You will need to add a `<nav>` element t",
+        "fullResponse": {
+          "type": "stream",
+          "content": "0:\"Okay, I can help you with that. You'll need to create an HTML structure for your navigation bar and then apply CSS styles to make it responsive and add\"\n0:\" hover effects.\\n\\n## The Plan\\n\\n1.  **Create the HTML structure for the navigation bar**:\\n    *   You will need to add a `<nav>` element to your main layout component (e.g., `src/App.tsx` or `index.html`).\\n    *   Inside the `<nav>`,\"\n0:\" include an unordered list (`<ul>`) for the navigation links. Each link will be an `<li>` containing an `<a>` tag.\\n    *   For responsiveness, you'll also need a checkbox input and a label (which will serve as the hamburger icon) to toggle the navigation menu on smaller screens.\\n\\n2.\"\n0:\"  **Add base CSS for the navigation bar**:\\n    *   In your main CSS file (e.g., `src/index.css` or `src/App.css`), define styles for the `nav` element, setting its background color, padding, and display properties (e.g., `display\"\n0:\": flex`, `justify-content: space-between`, `align-items: center`).\\n    *   Style the `ul` to remove default list styles and arrange the items horizontally on larger screens using `display: flex` and `gap`.\\n    *   Style the `li` elements to provide spacing between navigation items.\\n\\n\"\n0:\"3.  **Implement hover effects for navigation links**:\\n    *   Style the `a` tags within the `li` elements, setting their color, text decoration, and padding.\\n    *   Add a `transition` property to the `a` tags to ensure smooth visual changes when hovered.\\n    *   Define the\"\n0:\" `:hover` pseudo-class for the `a` tags to change properties like background color or text color when hovered over.\\n\\n4.  **Add responsive design using media queries**:\\n    *   Within the same CSS file, use `@media` rules to apply different styles for smaller screen sizes (e.g., \"\n0:\"`max-width: 768px`).\\n    *   On smaller screens, hide the `ul` by default and display the hamburger icon (the label associated with the checkbox).\\n    *   Adjust the `ul` and `li` styles to stack vertically when the hamburger menu is active (e.g., `flex\"\n0:\"-direction: column`).\\n    *   Style the hamburger icon to make it visible and clickable on small screens.\\n    *   Implement the logic (using the checkbox `:checked` pseudo-class combined with the general sibling selector `~`) to show/hide the navigation menu when the hamburger icon is clicked.\\n\\n<\"\n0:\"bolt-quick-actions>\\n  <bolt-quick-action type=\\\"implement\\\" message=\\\"Implement the responsive navigation bar with hover effects\\\">Implement this plan</bolt-quick-action>\\n  <bolt-quick-action type=\\\"message\\\" message=\\\"Show me an example of the HTML structure\\\">Show HTML example\"\n0:\"</bolt-quick-action>\\n  <bolt-quick-action type=\\\"file\\\" path=\\\"src/App.tsx\\\">Open App.tsx</bolt-quick-action>\\n  <bolt-quick-action type=\\\"file\\\" path=\\\"src/index.css\\\">Open index.css</bolt-quick\"\n0:\"-action>\\n</bolt-quick-actions>\"\ne:{\"finishReason\":\"stop\",\"usage\":{\"promptTokens\":6128,\"completionTokens\":717},\"isContinued\":false}\nd:{\"finishReason\":\"stop\",\"usage\":{\"promptTokens\":6128,\"completionTokens\":717}}\n"
+        }
+      },
+      "endTime": "2025-06-17T08:12:32.718Z"
+    }
+  ]
+}
